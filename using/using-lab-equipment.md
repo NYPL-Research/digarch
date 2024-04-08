@@ -15,6 +15,7 @@ To schedule a time
 * Select a date and time
 * Change the calendar from your personal calendar to Digital Archives Lab
 
+![event with Digital Archives Lab calendar selected](<using-lab-equipment/DAL-calendar.png>)
 If there are any issues, please contact lab staff.
 
 # Labeling
