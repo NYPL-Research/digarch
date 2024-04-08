@@ -61,10 +61,15 @@ Digital Archives of their discovery.
 **These instructions are for Digital Preservation staff (including fellows) only.**
 * Label commercial software with a simple acquisition name.
     * `Crouch` for Stanley Crouch papers.
+* Image commercial software only when specifically instructed to do so.  
+* Commercial software media don't receive objects records.  
+
+**When objects records were created for commercial software create an issue.**
+
 * Select issues from the object record menu in SPEC
 * Select Type: Digital Media
 * Enter Issue: Commercial Software
-* Image commercial software only when specifically instructed to do so.  
+
 
 ## Choosing Transfer Methods
 File transfer is the most common method of migrating files to more stable storage.  
