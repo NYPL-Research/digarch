@@ -32,11 +32,11 @@ for each carrier being transferred.
 * Navigate to the bottom left of the screen  
 * Select Find/propose an acquisition under Acquisitions heading  
 
-![SPEC find acquisition screen](preparing-for-transfer/SPEC-find-acq.png)
+<img alt="SPEC find acquisition screen" src="preparing-for-transfer/SPEC-find-acq.png" width="25%"/>
 
 * Enter acquisition number in the ID field or name in the Acquisition field  
 
-![SPEC acquisition search](preparing-for-transfer/SPEC-acq-search.png)
+<img alt="SPEC acquisition search" src="preparing-for-transfer/SPEC-acq-search.png" />
 
 * Select search  
 
@@ -45,22 +45,22 @@ for each carrier being transferred.
 ### Verifying object records exist in SPEC
 * Select the acquisition from the list  
 
-![SPEC acquisition search results](preparing-for-transfer/SPEC-acq-search-result.png)
+<img alt="SPEC acquisition search results" src="preparing-for-transfer/SPEC-acq-search-result.png" />
 * Note if there are any associated collections  
 
-![SPEC associated collections](preparing-for-transfer/SPEC-associated-collections.png)
+<img alt="SPEC associated collections" src="preparing-for-transfer/SPEC-associated-collections.png" />
 * Navigate to the left side of the screen  
 * Note the number of items listed for Digital media under Extent Summary   
 
-![SPEC extent summary](preparing-for-transfer/SPEC-extent-summary.png)
+<img alt="SPEC extent summary" src="preparing-for-transfer/SPEC-extent-summary.png" width="40%"/>
 * Select format summary next to Extent Summary, the right most button
 
 * Select digital media, mouseover text reads go to object records  
 
-![SPEC format summary](preparing-for-transfer/SPEC-object-format-count.png)
+<img alt="SPEC format summary" src="preparing-for-transfer/SPEC-object-format-count.png" />
 * Confirm the number of carriers Digital Archives has match the object records  
 
-![SPEC object records list](preparing-for-transfer/SPEC-object-records.png)
+<img alt="SPEC object records list" src="preparing-for-transfer/SPEC-object-records.png" />
 * Confirm the number of items listed for Digital media matches the object records  
 * Report a mismatch of digital media summary and object records to Systems and Operations  
 
@@ -85,16 +85,16 @@ Digital Archives of their discovery.
 
 * Select issues from the object record menu in SPEC
 
-![SPEC object record issues](preparing-for-transfer/SPEC-object-record-issue.png)
+<img alt=SPEC object record issues src="preparing-for-transfer/SPEC-object-record-issue.png" />
 
 * Select Add Issue
 
-![SPEC Issue Add button](preparing-for-transfer/SPEC-issue-list-add.png)
+<img alt="SPEC Issue Add button" src="preparing-for-transfer/SPEC-issue-list-add.png" />
 
 * Select Type: Digital Media
 * Enter Issue: Commercial Software
 
-![SPEC Issue input](preparing-for-transfer/SPEC-issue-type.png)
+<img alt="SPEC Issue input" src="preparing-for-transfer/SPEC-issue-type.png" />
 
 ## Choosing Transfer Methods
 File transfer is the most common method of migrating files to more stable storage.  
