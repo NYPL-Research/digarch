@@ -7,13 +7,10 @@ parent: Transfers
 # Preparing for Transfer <!-- (digarch issue 79) -->
 This page outlines the steps to take before transferring media objects.
 * Locating and verifying carriers against spec records
-    * Both acquisition and collection records?
 * Removing non-digital archives carriers
     * Commercial software
-    * AMI
+    * AMI (addressed in [completing transfer](completing-transfer.md))
 * Choosing transfer methods
-    * Table of carrier types to transfer methods
-    * How to choose in edge cases, e.g. nimbie vs single
 * Setting up space to store files on RAID
 
 ## Locating Carriers
@@ -117,7 +114,7 @@ Disk Imaging methods include:
 ### Choosing Transfer Method by Carrier
 
 Digital Archives has a standard transfer method for most of the carrier types we  
-encounter. Generally, carriers will transferred with the standard method unless  
+encounter. Generally, carriers will be transferred with the standard method unless  
 standard methods fail.  
 
 
