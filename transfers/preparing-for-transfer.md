@@ -6,7 +6,7 @@ parent: Transfers
 ---
 # Preparing for Transfer <!-- (digarch issue 79) -->
 This page outlines the steps to take before transferring media objects.
-* Locating and verifying carriers against spec records
+* Locating and verifying carriers against SPEC records
 * Removing non-digital archives carriers
     * Commercial software
     * AMI (addressed in [completing transfer](completing-transfer.md))
@@ -29,11 +29,17 @@ for each carrier being transferred.
 * Navigate to the bottom left of the screen  
 * Select Find/propose an acquisition under Acquisitions heading  
 
+<details>
+<summary>Select to view image</summary>
 <img alt="SPEC find acquisition screen" src="preparing-for-transfer/SPEC-find-acq.png" width="25%"/>
+</details>
 
 * Enter acquisition number in the ID field or name in the Acquisition field  
 
+<details>
+<summary>Select to view image</summary>
 <img alt="SPEC acquisition search" src="preparing-for-transfer/SPEC-acq-search.png" />
+</details>
 
 * Select search  
 
@@ -42,24 +48,43 @@ for each carrier being transferred.
 ### Verifying object records exist in SPEC
 * Select the acquisition from the list  
 
-<img alt="SPEC acquisition search results" src="preparing-for-transfer/SPEC-acq-search-result.png" />
+<details>
+<summary>Select to view image</summary>
+<img alt="SPEC acquisition search results" 
+src="preparing-for-transfer/SPEC-acq-search-result.png" />
+</details>
 * Note if there are any associated collections  
 
-<img alt="SPEC associated collections" src="preparing-for-transfer/SPEC-associated-collections.png" />
+<details>
+<summary>Select to view image</summary>
+<img alt="SPEC associated collections" 
+src="preparing-for-transfer/SPEC-associated-collections.png" />
+</details>
 * Navigate to the left side of the screen  
 * Note the number of items listed for Digital media under Extent Summary   
 
+<details>
+<summary>Select to view image</summary>
 <img alt="SPEC extent summary" src="preparing-for-transfer/SPEC-extent-summary.png" width="40%"/>
+</details>
 * Select format summary next to Extent Summary, the right most button
 
 * Select digital media, mouseover text reads go to object records  
 
-<img alt="SPEC format summary" src="preparing-for-transfer/SPEC-object-format-count.png" />
+<details>
+<summary>Select to view image</summary>
+<img alt="SPEC format summary" 
+src="preparing-for-transfer/SPEC-object-format-count.png" />
+</details>
 * Confirm the number of carriers Digital Archives has match the object records  
 
-<img alt="SPEC object records list" src="preparing-for-transfer/SPEC-object-records.png" />
+<details>
+<summary>Select to view image</summary>
+<img alt="SPEC object records list" 
+src="preparing-for-transfer/SPEC-object-records.png" />
+</details>
 * Confirm the number of items listed for Digital media matches the object records  
-* Report a mismatch of digital media summary and object records to Systems and Operations  
+* Report mismatch of digital media summary and object records to Systems and Operations  
 
 **Contact Collection Management if the number of carriers and records don't match**
 
@@ -81,17 +106,25 @@ Digital Archives of their discovery.
 **When objects records were created for commercial software create an issue.**
 
 * Select issues from the object record menu in SPEC
-
-<img alt=SPEC object record issues src="preparing-for-transfer/SPEC-object-record-issue.png" />
-
+<details>
+<summary>Select to view image</summary>
+<img alt=SPEC object record issues 
+src="preparing-for-transfer/SPEC-object-record-issue.png" />
+</details>
 * Select Add Issue
 
+<details>
+<summary>Select to view image</summary>
 <img alt="SPEC Issue Add button" src="preparing-for-transfer/SPEC-issue-list-add.png" />
+</details>
 
 * Select Type: Digital Media
 * Enter Issue: Commercial Software
 
+<details>
+<summary>Select to view image</summary>
 <img alt="SPEC Issue input" src="preparing-for-transfer/SPEC-issue-type.png" />
+</details>
 
 ## Choosing Transfer Methods
 File transfer is the most common method of migrating files to more stable storage.  
