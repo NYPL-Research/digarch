@@ -5,11 +5,13 @@ nav_order: 5
 parent: Transfers
 ---
 
-# Floppy Disks  
+# Floppy Disks 
+This page describes instructions for imaging floppy disks using the  KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
 
-**Before a media object can be imaged it first must be recorded SPEC.**
-
-## Getting set up
+### Before Imaging
+* Before any media can be imaged **it first must have an object record in SPEC**.  on verifying record creation in SPEC.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist
+* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions. 
 
 ### Connect the KryoFlux
 * Ensure the floppy drive is correctly connected to the Kryoflux. 
@@ -17,10 +19,9 @@ parent: Transfers
 * See a green power light glow on the Kryoflux board.  
 * Attach the AC power cable to the power supply. 
 *  See the green LED on the power supply light up.  
-*  Listen for a faint click from the disk drive.   
-  
-**See the [KryoFlux page in the Tools section for more](https://nypl.github.io/digarch/tools/kryoflux).**
+*  Listen for a faint click from the disk drive.
 
+ 
 ### Calibrate the KryoFlux
 * Open the KryoFlux software from the desktop "kryoflux-ui.jar".
 * Click on the drive menu and ensure that ‘Drive 0’ is selected.
@@ -59,6 +60,8 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
   The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
 
 ### Tracking
+Deprecated
+{: .label .label-red} 
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
 * Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
@@ -106,12 +109,19 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 | -- |  
 | Y |  
 
+### Package Images with package_images.py
+
+
 ### Completing the imaging process
 
-* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
-* Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
+* Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
+* Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
+
+-----
 
 ### Using Digital Archives scripts
+Deprecated
+{: .label .label-red}
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
 
 ### Create destination directories
