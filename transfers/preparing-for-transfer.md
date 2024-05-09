@@ -16,8 +16,9 @@ This page outlines the steps to take before transferring media objects.
 ## Locating Carriers
 * Carriers are located on shelving by the entrance door
 * Carriers to be transferred are likely on `02.**` shelves
-* 
-**Before a media object can be imaged it first must be recorded SPEC.**
+
+{: .important }
+Before a media object can be imaged it first must be recorded SPEC.
 
 ## Verifying SPEC records
 An acquisition record should exist in SPEC and SPEC object records should exist   
@@ -43,7 +44,8 @@ for each carrier being transferred.
 
 * Select search  
 
-**Contact Collection Management if you cannot find the acquisition**
+{: .warning }
+Contact Collection Management if you cannot find the acquisition
 
 ### Verifying object records exist in SPEC
 * Select the acquisition from the list  
@@ -86,7 +88,8 @@ src="preparing-for-transfer/SPEC-object-records.png" />
 * Confirm the number of items listed for Digital media matches the object records  
 * Report mismatch of digital media summary and object records to Systems and Operations  
 
-**Contact Collection Management if the number of carriers and records don't match**
+{: .highlight }
+Contact Collection Management if the number of carriers and records don't match
 
 ### Verifying additional carriers from Archival Processing
 When archivists survey a collection they may find additional carriers in boxes.  
@@ -94,16 +97,20 @@ Archivists should create object records for any carriers they find and notify
 Digital Archives of their discovery.  
 * [Verify](#verifying-object-records-exist-in-spec) objects records exist in SPEC  
 
-**Contact the processing archivist if the number of carriers and records don't match**  
+{: .highlight }
+Contact the processing archivist if the number of carriers and records don't match  
 
 ### Handling Commercial Software  
-**These instructions are for Digital Preservation staff (including fellows) only.**
+
+{: .note }
+These instructions are for Digital Preservation staff (including fellows) only.  
 * Label commercial software with a simple acquisition name.
     * `Crouch` for Stanley Crouch papers.
 * Image commercial software only when specifically instructed to do so.  
 * Commercial software media don't receive objects records.  
 
-**When objects records were created for commercial software create an issue.**
+{: .highlight }
+When objects records were created for commercial software create an issue.
 
 * Select issues from the object record menu in SPEC
 <details>
