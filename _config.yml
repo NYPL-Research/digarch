@@ -36,3 +36,6 @@ callouts:
   construction:
     title: Under Construction
     color: yellow
+  deprecated:
+    title: Deprecated
+    color: red
