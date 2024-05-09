@@ -16,3 +16,23 @@ heading_anchors: true
 
 ga_tracking: G-4GBB05KF5M
 ga_tracking_anonymize_ip: true
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: blue
+  important:
+    title: Important
+    color: yellow
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+  construction:
+    title: Under Construction
+    color: yellow
