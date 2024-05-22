@@ -6,10 +6,12 @@ parent: Transfers
 ---
 
 ## Iomega Disks
+This page covers Iomega disk imaging with the FTK Imager software. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.
 
-**Before a media object can be imaged it first must be recorded SPEC.**
-
-This section covers imaging with FTK Imager. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.  
+### Before Imaging
+* Before any media can be imaged **it first must have an object record in SPEC**.  on verifying record creation in SPEC.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist
+* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Using Digital Archives scripts
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  

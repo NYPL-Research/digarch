@@ -6,7 +6,7 @@ parent: Transfers
 ---
 
 # Floppy Disks 
-This page describes instructions for imaging floppy disks using the  KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
+This page describes instructions for imaging floppy disks using the KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
 
 ### Before Imaging
 * Before any media can be imaged **it first must have an object record in SPEC**.  on verifying record creation in SPEC.
@@ -60,8 +60,6 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
   The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
 
 ### Tracking
-Deprecated
-{: .label .label-red} 
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
 * Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
@@ -117,7 +115,6 @@ Deprecated
 * Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
 
------
 
 ### Using Digital Archives scripts
 Deprecated
@@ -125,6 +122,8 @@ Deprecated
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
 
 ### Create destination directories
+Deprecated
+{: .label .label-red} 
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
 
@@ -185,7 +184,8 @@ Or
   * /objects
 
 ### Package images
-
+Deprecated
+{: .label .label-red} 
 On Mac:
 
 * Open Terminal.
