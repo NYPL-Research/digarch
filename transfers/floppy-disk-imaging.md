@@ -122,7 +122,7 @@ The python script package_images.py identifies digital carrier images in an inpu
 
 
 {: .deprecated }
-The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.
+**The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.**
 
 ### Using Digital Archives scripts
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
