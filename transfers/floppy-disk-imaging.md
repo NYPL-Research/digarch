@@ -113,7 +113,7 @@ The python script package_images.py identifies digital carrier images in an inpu
 
 * Open Terminal
 * Enter the following command with the appropriate paths: ```python3 package_images.py –images path/to/images –stream path/to/streams –log path/to/logs –dest path/diskImages/folder –id (M#### or ACQ_####)```
-* Navigate to destiantion directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
+* Navigate to destination directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
 
