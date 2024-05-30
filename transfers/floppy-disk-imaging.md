@@ -9,9 +9,9 @@ parent: Transfers
 This page describes instructions for imaging floppy disks using the KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
 
 ### Before Imaging
-* Before any media can be imaged **it first must have an object record in SPEC**.  on verifying record creation in SPEC.
-* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist
-* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions. 
+* Before any media can be imaged **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist.
+* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Connect the KryoFlux
 * Ensure the floppy drive is correctly connected to the Kryoflux. 
@@ -56,8 +56,9 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 * Select “Multiple” from the drop-down below the "Enter name ..." text field when you have determined the correct sector format.  
 * Select “KryoFlux stream image” and, while holding down the control key, select the correct sector format from the dropdown.  
 * Select ‘ok’ to close the popup.  
-* Click the start button to begin the imaging process.  
-  The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
+* Click the start button to begin the imaging process. 
+
+The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
 
 ### Tracking
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
@@ -108,7 +109,11 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 | Y |  
 
 ### Package Images with package_images.py
+The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py]() listing in the Working Scripts section of our documentation.
 
+* Open Terminal
+* Enter the following command with the appropriate paths: ```python3 package_images.py –images path/to/images –stream path/to/streams –log path/to/logs –dest path/diskImages/folder –id (M#### or ACQ_####)```
+* Navigate to destiantion directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
 
@@ -116,14 +121,13 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
 
 
+{: .deprecated }
+The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.
+
 ### Using Digital Archives scripts
-Deprecated
-{: .label .label-red}
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
 
 ### Create destination directories
-Deprecated
-{: .label .label-red} 
 
 **These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
 
@@ -184,8 +188,6 @@ Or
   * /objects
 
 ### Package images
-Deprecated
-{: .label .label-red} 
 On Mac:
 
 * Open Terminal.
