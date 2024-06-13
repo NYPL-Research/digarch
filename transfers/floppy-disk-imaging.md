@@ -116,7 +116,7 @@ The KryoFlux will now create a folder with the name of the id of the media that 
 
 ### Package Images with package_images.py
 
-The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py]() listing in the Working Scripts section of our documentation.
+The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
 
 Packaging images from floppy disks requires five arguments:
 * ```--acqid```: Acquisiton id following the syntax ACQ-####.
