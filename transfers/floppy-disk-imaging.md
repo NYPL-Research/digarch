@@ -5,15 +5,18 @@ nav_order: 5
 parent: Transfers
 ---
 
-# Floppy Disks 
+# Floppy Disks
+
 This page describes instructions for imaging floppy disks using the KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
 
 ### Before Imaging
+
 * Before any media can be imaged **it first must have an object record in SPEC**.
 * Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist.
 * See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Connect the KryoFlux
+
 * Ensure the floppy drive is correctly connected to the Kryoflux. 
 * Attach the KryoFlux USB cable from the forensic workstation to the Kryoflux board.  
 * See a green power light glow on the Kryoflux board.  
@@ -23,6 +26,7 @@ This page describes instructions for imaging floppy disks using the KryoFlux mic
 
  
 ### Calibrate the KryoFlux
+
 * Open the KryoFlux software from the desktop "kryoflux-ui.jar".
 * Click on the drive menu and ensure that ‘Drive 0’ is selected.
 * Select ‘calibrate’ from the drive menu, then ‘yes’ from the pop-up window.  
@@ -31,7 +35,8 @@ This page describes instructions for imaging floppy disks using the KryoFlux mic
 * Calibrate only once when you begin a session, unless calibration fails.  
 
 ### Resolve communication with the drive.
-Follow these steps if the KryoFlux is unable to communicate with the drive.  
+
+Follow these steps if the KryoFlux is unable to communicate with the drive:  
 * Close the application.  
 * Disconnect the power source from the drive.  
 * Disconnect the USB cable from the KryoFlux board.  
@@ -61,6 +66,7 @@ Follow these steps if the KryoFlux is unable to communicate with the drive.
 The KryoFlux will now create a folder with the name of the id of the media that contains the stream image files and a sector image (again with the name of the media plus an “.001” file extension). Both the stream directory and the sector image file will be written to the kryofluxOutput directory on Staging.  
 
 ### Tracking
+
 * Navigate to the [Tracking](https://drive.google.com/drive/folders/1tv4nr9Nq_c8wkqPpz_eQX7NKRRrlEisp?usp=share_link){:target="_blank"} folder in Google Drive.  
 * Find the spreadsheet for the acquisition that you will be working with.  
 * Copy [Tracking_TEMPLATE](https://docs.google.com/spreadsheets/d/1TwWMsrCf2hf5LzdtA6EG-2wcgFW_Uz750x-PZtFop90/edit?usp=sharing) to create a spreadsheet if one doesn't exist.  
@@ -109,10 +115,19 @@ The KryoFlux will now create a folder with the name of the id of the media that 
 | Y |  
 
 ### Package Images with package_images.py
+
 The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py]() listing in the Working Scripts section of our documentation.
 
+Packaging images from floppy disks requires five arguments:
+* ```--acqid```: Acquisiton id following the syntax ACQ-####.
+* ```--images_folder```: Path to directory holding images to be packaged, typically kryofluxOutput.
+* ```--logs```: Path to directory holding transfer logs.
+* ```--steams_folder```: Path to directory holding stream files.
+* ```--dest```: Path to destination directory for package, typically diskImages.
+
+Use package_images.py with the followings steps:
 * Open Terminal
-* Enter the following command with the appropriate paths: ```python3 package_images.py –images path/to/images –stream path/to/streams –log path/to/logs –dest path/diskImages/folder –id (M#### or ACQ_####)```
+* Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–images_folder path/to/images –streams_folder path/to/streams –logs path/to/logs/folder –dest path/to/diskImages```
 * Navigate to destination directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
@@ -121,7 +136,6 @@ The python script package_images.py identifies digital carrier images in an inpu
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
 
 
-{: .deprecated }
 **The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.**
 
 ### Using Digital Archives scripts
