@@ -20,8 +20,10 @@ This page outlines the steps to take after transferring media.
 (Refer to transfer instructions for the format you are transferring)
 
 ## Verifying all packages meet requirements
-Under Construction
-{: .label .label-yellow}  
+
+{: .construction } 
+packaging instructions to follow
+
 * Run the packaging script
 
 ## Updating records in SPEC

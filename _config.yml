@@ -16,3 +16,34 @@ heading_anchors: true
 
 ga_tracking: G-4GBB05KF5M
 ga_tracking_anonymize_ip: true
+
+callouts_level: quiet # or loud
+callouts:
+# use for documentation still not fully complete, but partially launched
+  construction:
+    title: Under Construction
+    color: yellow
+# use after launching new documentation for external staff, remove after some period time
+  new:
+    title: New
+    color: green
+# use for legacy instruction that will eventually be removed, remove when documentation is removed
+  deprecated:
+    title: Deprecated
+    color: red
+# use to callout requirements before starting process
+  important:
+    title: Important
+    color: yellow
+# use for context to instructions
+  note:
+    title: Note
+    color: purple
+# use for situations where no further work should be completed until situation is resolved
+  warning:
+    title: Warning
+    color: red
+# use for final instruction or failure remediation
+  highlight:
+    color: blue
+
