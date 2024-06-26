@@ -116,7 +116,7 @@ The KryoFlux will now create a folder with the name of the id of the media that 
 
 ### Package Images with package_images.py
 
-The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
+The python script package_images.py identifies digital carrier images in an input directory, creates an archival information package, and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega zip disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
 
 Packaging images from floppy disks requires five arguments:
 * ```--acqid```: Acquisiton id following the syntax ACQ-####.
@@ -136,7 +136,8 @@ Use package_images.py with the followings steps:
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
 
 
-**The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.**
+{: .deprecated}
+The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.
 
 ### Using Digital Archives scripts
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
