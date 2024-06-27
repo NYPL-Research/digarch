@@ -120,15 +120,15 @@ The python script package_images.py identifies digital carrier images in an inpu
 
 Packaging images from floppy disks requires five arguments:
 * ```--acqid```: Acquisiton id following the syntax ACQ-####.
-* ```--images_folder```: Path to directory holding images to be packaged, typically kryofluxOutput.
+* ```--images_folder```: Path to directory holding images to be packaged, typically this will be /Working on DigArchDiskStation.
 * ```--logs```: Path to directory holding transfer logs.
 * ```--steams_folder```: Path to directory holding stream files.
-* ```--dest```: Path to destination directory for package, typically diskImages.
+* ```--dest```: Path to destination directory for package, typically this will be /Transfers on DigArchDiskStation or on Isilon in the case of large acqusiitons.
 
 Use package_images.py with the followings steps:
 * Open Terminal
 * Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–images_folder path/to/images –streams_folder path/to/streams –logs path/to/logs/folder –dest path/to/diskImages```
-* Navigate to destination directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
+* Navigate to destination directory to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
 
@@ -137,7 +137,7 @@ Use package_images.py with the followings steps:
 
 
 {: .deprecated}
-The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.
+The following sections describe imaging and packaging processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
 
 ### Using Digital Archives scripts
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  

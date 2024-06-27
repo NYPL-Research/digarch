@@ -121,11 +121,12 @@ height="4.55in"} -->
 
 ### Package Images with package_images.py
 
-The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py]() listing in the Working Scripts section of our documentation.
+The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
 
+Use package_images.py with the followings steps:
 * Open Terminal
-* Enter the following command with the appropriate paths: ```python3 package_images.py –images path/to/images –stream path/to/streams –log path/to/logs –dest path/diskImages/folder –id (M#### or ACQ_####)```
-* Navigate to destination directory, diskImages, on DigArchDiskStation to verify packages have been created and image files have been moved
+* Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–images_folder path/to/images –streams_folder path/to/streams –logs path/to/logs/folder –dest path/to/diskImages```
+* Navigate to destination directory to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
 
@@ -134,7 +135,7 @@ The python script package_images.py identifies digital carrier images in an inpu
 
 
 {: .deprecated }
-**The following sections describe floppy disk imaging processes no longer regularly used, including the use of department developed bash scripts for the movement and packaging of imaged files. Consult these sections when working with legacy collections requires understanding previously done work.**
+The following sections describe imaging and packaging processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
 
 ### Using Digital Archives scripts
 Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
