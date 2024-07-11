@@ -125,7 +125,7 @@ The python script package_images.py identifies digital carrier images in an inpu
 
 Use package_images.py with the followings steps:
 * Open Terminal
-* Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–images_folder path/to/images –streams_folder path/to/streams –logs path/to/logs/folder –dest path/to/diskImages```
+* Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–source path/to/images -–dest path/to/diskImages```
 * Navigate to destination directory to verify packages have been created and image files have been moved
 
 ### Completing the imaging process
