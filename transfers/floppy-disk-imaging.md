@@ -10,9 +10,10 @@ parent: Transfers
 This page describes instructions for imaging floppy disks using the KryoFlux microcontroller and software. For more detailed installation and use information see the [Kryoflux documentation](https://nypl.github.io/digarch/tools/kryoflux) in our Tools section.
 
 ### Before Imaging
-
-* Before any media can be imaged **it first must have an object record in SPEC**.
-* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist.
+{: .important }
+Before any media can be imaged **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+    * Create a card if it does not already exist 
 * See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Connect the KryoFlux
@@ -116,14 +117,7 @@ The KryoFlux will now create a folder with the name of the id of the media that 
 
 ### Package Images with package_images.py
 
-The python script package_images.py identifies digital carrier images in an input directory, creates an archival information package, and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega zip disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
-
-Packaging images from floppy disks requires five arguments:
-* ```--acqid```: Acquisiton id following the syntax ACQ-####.
-* ```--images_folder```: Path to directory holding images to be packaged, typically this will be /Working on DigArchDiskStation.
-* ```--logs```: Path to directory holding transfer logs.
-* ```--steams_folder```: Path to directory holding stream files.
-* ```--dest```: Path to destination directory for package, typically this will be /Transfers on DigArchDiskStation or on Isilon in the case of large acqusiitons.
+The python script package_images.py identifies digital carrier images in an input directory, creates a archival information package, and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
 
 Use package_images.py with the followings steps:
 * Open Terminal

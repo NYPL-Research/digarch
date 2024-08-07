@@ -9,8 +9,10 @@ parent: Transfers
 This page covers Iomega disk imaging with the FTK Imager software. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.
 
 ### Before Imaging
-* Before any media can be imaged **it first must have an object record in SPEC**.
-* Verify a tracking card exists on Trello for the associated acquisition being imaged, create a card if it does not already exist.
+{: .important }
+Before any media can be imaged **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+    * Create a card if it does not already exist 
 * See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Image disks
@@ -121,7 +123,7 @@ height="4.55in"} -->
 
 ### Package Images with package_images.py
 
-The python script package_images.py identifies digital carrier images in an input directory and creates a archival information package and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
+The python script package_images.py identifies digital carrier images in an input directory, creates a archival information package, and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
 
 Use package_images.py with the followings steps:
 * Open Terminal
