@@ -6,78 +6,14 @@ parent: Transfers
 ---
 
 ## Iomega Disks
+This page covers Iomega disk imaging with the FTK Imager software. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.
 
-**Before a media object can be imaged it first must be recorded SPEC.**
-
-This section covers imaging with FTK Imager. Iomega disks are usually imaged with FTK Imager. Use FTK Imager when creating a disk image of a hard drive or removable media.  
-
-### Using Digital Archives scripts
-Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
-
-### Create destination directories
-
-**These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
-
-On Mac:
-
-* Open Terminal.
-
-* Navigate to DigArchDiskStation.  
-
-* Change into diskImages directory.  
-```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
-
-* Create a directory for your collection if it does not exist.  
-```$ mkdir ACQ_acqID```  
-
-* Change into your collection directory.  
-```$ cd ACQ_acqID```  
-
-* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-
-Or
-
-* Change to diskImages directory.  
-
-```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
-  * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
-
-On Windows via WSL:
-
-* Open WSL.
-* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
-  * Changing to the top level directory by entering ```cd ../```
-  * Entering the command ```sudo mount drvfs Y: /mnt/y```
-* Change into diskImages directory.  
-```$ cd /mnt/y/Staging/ingest/diskImages```
-
-* Create a directory for the acquisition if it does not exist.  
-```$ mkdir ACQ_acqID```  
-
-* Change into the acquisition directory.  
-```$ cd ACQ_acqID```  
-
-* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
-
-Or
-
-* Change to diskImages directory.  
-
-```$ cd /mnt/y/Staging/ingest/diskImages```  
-  * Enter ```mkdir``` command.  
-```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
-
-#### Directory structure
-
-* /M2319-0021
-  * /metadata
-    * 
-  * /objects
-
-
-<!-- ![](media/media/image29.png){width="6.069444444444445in"
-height="2.3472222222222223in"} -->
+### Before Imaging
+{: .important }
+Before any media can be imaged **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+    * Create a card if it does not already exist 
+* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
 ### Image disks
 
@@ -185,22 +121,88 @@ height="4.55in"} -->
 | -- |  
 | Y | 
 
+### Package Images with package_images.py
+
+The python script package_images.py identifies digital carrier images in an input directory, creates a archival information package, and moves image files into the package. This section describes packaging with package_images.py for floppy and Iomega disks. For detailed information on installation and use see the [package_image.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_imagespy) listing in the Working Scripts section of our documentation.
+
+Use package_images.py with the followings steps:
+* Open Terminal
+* Enter the following command with the appropriate paths: ```python3 package_images.py –-acqid (M#### or ACQ_####) -–source path/to/images -–dest path/to/diskImages```
+* Navigate to destination directory to verify packages have been created and image files have been moved
+
 ### Completing the imaging process
 
-* Put the media back in the collection’s box and move or remove the pink “To image” flag as necessary if you are working on a large collection.  
-* Move the media to the “Small collections complete” box if you are working on a small collection without a box.  
+* Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
+* Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions 
 
-### Metadata
-Deprecated
-{: .label .label-red }
-* Open Cygwin and enter the following commands:
-* Connect to ARCHV Mac.  
-```$ ssh archv```
-* Change to the diskImages directory and change directory to the objects folder for the media object.  
-`$ diskimages`  
-`$cd ACQ_acqID/ACQ_acqID_specObjectID/objects`
-* Run disktype on the disk image to get the file system metadata.  
-`$ disktype ACQ_acqID_specObjectID.E01`
-* Copy the file system information data into the media objects CMS record.
-* Run program to move metadata files to metadata directory.  
-`$ movemetadata`
+
+{: .deprecated }
+The following sections describe imaging and packaging processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
+
+### Using Digital Archives scripts
+Make sure the setup instructions for Digital Archives [scripts](https://github.com/NYPL/digarch_scripts){:target="_blank"} have been completed before running the scripts in the next section.  
+
+### Create destination directories
+
+**These instructions show you how to create destination directories for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive MediaID numbers.**  
+
+On Mac:
+
+* Open Terminal.
+
+* Navigate to DigArchDiskStation.  
+
+* Change into diskImages directory.  
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```
+
+* Create a directory for your collection if it does not exist.  
+```$ mkdir ACQ_acqID```  
+
+* Change into your collection directory.  
+```$ cd ACQ_acqID```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /Volumes/DigArchDiskStation/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}``` 
+
+On Windows via WSL:
+
+* Open WSL.
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd ../```
+  * Entering the command ```sudo mount drvfs Y: /mnt/y```
+* Change into diskImages directory.  
+```$ cd /mnt/y/Staging/ingest/diskImages```
+
+* Create a directory for the acquisition if it does not exist.  
+```$ mkdir ACQ_acqID```  
+
+* Change into the acquisition directory.  
+```$ cd ACQ_acqID```  
+
+* Run [makesips script](https://nypl.github.io/digarch/tools/working-scripts.html#makesips-sipdirsh){:target="_blank"} to create a consecutive number of submission information packages for material from digital media.
+
+Or
+
+* Change to diskImages directory.  
+
+```$ cd /mnt/y/Staging/ingest/diskImages```  
+  * Enter ```mkdir``` command.  
+```mkdir -p ACQ_acqID/ACQ_acqID_specObjectID/{metadata,objects}```
+
+#### Directory structure
+
+* /M2319-0021
+  * /metadata
+    * 
+  * /objects
+
+
+<!-- ![](media/media/image29.png){width="6.069444444444445in"
+height="2.3472222222222223in"} -->
