@@ -13,25 +13,15 @@ parent: Processing
 1. TOC
 {:toc}
 
-Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged.  
+Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged. In some cases files might
+be available on remote storage.   
 
 ## Using an External Hard Drive
 
 * Attach the external hard drive or thumb drive to your workstation.  
-
 <!--*Will need to add new language around SPEC updates*-->
-* Open SPEC and navigate to the object inventory of the associated collection for information on the digital carriers being processed.
-
-* Note you may also need to update fields in individual SPEC object records at various points during processing.  
-
-## Arranging and Describing Files from a Workstation
-
-The goal of the arrangement and description phase is to approximate the
-process in which an archivist works with a physical collection. By using
-their workstation the archivist will be able to appraise a copy of records with the same 
-structure as contained on their original media, create a set of intellectual components
-(arrangement), summarize the logical extents (size) and date ranges of
-the components, and enter them into ArchivesSpace.
+* Navigate to the SPEC object inventory of the acquisition to view digital carrier information.  
+* You may need to update fields in SPEC object records at various points during processing.   
 
 ### Navigating the Drive
 
@@ -52,11 +42,30 @@ OR
 * Navigate to the data folder in the objects folder to view the files to be arranged.
 <!--* Note manifest.txt files contain a directory listing. --> 
 
-### Processing  
+{: .important }
+`data` folders are not collection folders. Move the contents within `data` folders only.  
+
+## Surveying and Appraisal
+
+The goal of the survey and appraisal phase is to approximate the process in which an archivist works with a physical collection. By using their workstation the archivist will be able to appraise a copy of records with the same structure as contained on their original media. 
 
 * Appraise the files.  
 * Ascertain the arrangement of the files.
-* Note file naming conventions, how the files relate to each other, and  possible duplicates.
+* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
+  
+
+## Arranging and Describing Files from a Workstation
+
+The goal of the arrangement and description phase is to approximate the
+process in which an archivist works with a physical collection. By using
+their workstation the archivist will be able to appraise a copy of records with the same 
+structure as contained on their original media, create a set of intellectual components
+(arrangement), summarize the logical extents (size) and date ranges of
+the components, and enter them into ArchivesSpace.
+
+{: .warning }
+Do not rename collection files.  
+Avoid creating an ER for a single file. 
 
 ### Arrangement  
 

@@ -9,8 +9,8 @@ This page outlines times archivists and Digital Archives staff should communicat
 # Accessioning  
 * Contact Digital Archives when digital media are in an accessioned collection. 
 
-# Collection Assignment
-* Contact Digital Archives when you are assigned a collection with digital media.  
+# Collection Start
+* Contact Digital Archives when you start a collection with digital media.  
 * Discuss your time frame for processing the collection.  
 * Find out whether media has been transferred and how that will affect your processing schedule.  
 * Discuss whether you would like to appraise/survey hard drive directories before transfer.  
