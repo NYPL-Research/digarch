@@ -45,13 +45,18 @@ OR
 {: .important }
 `data` folders are not collection folders. Move the contents within `data` folders only.  
 
-## Surveying and Appraisal
+## Surveying and Appraising
 
 The goal of the survey and appraisal phase is to approximate the process in which an archivist works with a physical collection. By using their workstation the archivist will be able to appraise a copy of records with the same structure as contained on their original media. 
+"The goal of the survey is to attain a more comprehensive understanding of the collection's scope, content, and purpose." [^1]
 
-* Appraise the files.  
+[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://docs.google.com/document/d/1tiIm0R8P0A_sOH3RUKsPgUKXAThqXT074QeIEokD6uk/edit?usp=sharing](https://docs.google.com/document/d/1tiIm0R8P0A_sOH3RUKsPgUKXAThqXT074QeIEokD6uk/edit?usp=sharing).
+
+
+### Surveying
+* Survey files as you would any other format.    
 * Ascertain the arrangement of the files.
-* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
+* Note file naming conventions, how the files relate to each other, and possible duplicates.  
   
 
 ## Arranging and Describing Files from a Workstation
@@ -87,4 +92,6 @@ Avoid creating an ER for a single file.
 ### Entering your collection in ArchivesSpace
 After arrangement is complete Processing Archivists notify Digital Archives and deliver the external hard drive containing FA Components to Digital Archives for review.  Digital Archives staff then create a JSON file containing extents for import into ASpace. For detailed instruction on importing the extents JSON to ASpace review the [Importing FTK ERs in ArchiveSpace](https://docs.google.com/document/d/1BVMaDOzdcPFIht5yN5V16zmsnjMTwG_3e73HPTdVzSg/edit) guide.
 
-* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.
+* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.  
+
+----------------------------------------------------------------------------------------
