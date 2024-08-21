@@ -8,19 +8,28 @@ parent: Transfers
 # File Transfers
 {: .no_toc }
 
-## Table of contents
+<!--## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+{:toc}-->
 
-# Introduction
+<!--# Introduction
 
 Born digital collection material can be acquired through file transfer or forensic imaging. Most material will be transferred using a Bagit script through command line.
 
-The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types.  
+The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types-->
 
-**Before a media object can be transferred it first must be recorded SPEC.**
+This page describes instructions for acquiring born digital material via file transfer and packaging file transfers for processing. The file transfer workflow described on this page primarily applies to internal and external hard drives, thumb drives and sd cards. 
+
+### Before Imaging
+{: .important }
+Before any media can be imaged **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+    * Create a card if it does not already exist 
+* See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
+
+<!--**Before a media object can be transferred it first must be recorded SPEC.**-->
 
 ## Prepare destination folders for files
 
@@ -133,6 +142,14 @@ On Mac:
 * Enter ```rsync -arP sourcepath destinationpath```
 
 * An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```
+
+### Completing the imaging process
+
+* Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
+* Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
+
+{: .deprecated}
+The following sections describe processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
 
 ### FT.sh
 
