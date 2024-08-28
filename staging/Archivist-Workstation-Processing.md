@@ -25,7 +25,7 @@ be available on remote storage.
 
 ### Navigating the Drive
 
-* Double-click the drive icon to display the drive folders in Windows Explorer.
+* Select the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
     * \M12345_workingfiles
         * \ACQ_12345_54321
@@ -47,10 +47,17 @@ OR
 
 ## Surveying and Appraising
 
-The goal of the survey and appraisal phase is to approximate the process in which an archivist works with a physical collection. By using their workstation the archivist will be able to appraise a copy of records with the same structure as contained on their original media. 
-"The goal of the survey is to attain a more comprehensive understanding of the collection's scope, content, and purpose." [^1]
+Using their workstation the archivist will be able to appraise a copy of records with   
+the same structure as contained on the original media.  
+"The goal of the survey is to attain a more comprehensive understanding of the  
+collection's scope, content, and purpose." [^1]
 
-[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://docs.google.com/document/d/1tiIm0R8P0A_sOH3RUKsPgUKXAThqXT074QeIEokD6uk/edit?usp=sharing](https://docs.google.com/document/d/1tiIm0R8P0A_sOH3RUKsPgUKXAThqXT074QeIEokD6uk/edit?usp=sharing).
+[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey](https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey).
+
+“In archives, appraisal is the process of determining whether collection material has  
+archival value and should be retained, preserved, and described.” [^2]
+
+[^2]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal](https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal)
 
 
 ### Surveying
@@ -61,12 +68,9 @@ The goal of the survey and appraisal phase is to approximate the process in whic
 
 ## Arranging and Describing Files from a Workstation
 
-The goal of the arrangement and description phase is to approximate the
-process in which an archivist works with a physical collection. By using
-their workstation the archivist will be able to appraise a copy of records with the same 
-structure as contained on their original media, create a set of intellectual components
-(arrangement), summarize the logical extents (size) and date ranges of
-the components, and enter them into ArchivesSpace.
+Using their workstation the archivist will be able to create a set of intellectual   
+components (arrangement), summarize the logical extents (size) and date ranges of  
+the components, and enter them into ArchivesSpace.  
 
 {: .warning }
 Do not rename collection files.  
