@@ -17,10 +17,9 @@ each collection a case is created in FTK and information regarding this
 case is stored in a PostGreSQL database. During processing, a backup of
 the case can be created which contains case information and a copy of
 the database files regarding that case. After processing, a case is
-archived. The case directory keeps the case information and the database files which
-are then deleted from the PostGresSQL database. Locally, we also include
-a compressed copy of the case's evidence in our archive except for
-certain exceptions, noted below.
+archived in FTK terminology. This means case information is moved from PostGreSQL
+to the case directory. The case directory keeps the case information and the database 
+files are then deleted from the PostGresSQL database.
 
 ## Archive of Case
 
@@ -31,11 +30,6 @@ certain exceptions, noted below.
 
 *   After a case has been archived, all backups of that case will be
      deleted.
-
-*   Compressed copies of the case evidence will be retained with the
-     case. Exceptions to this rule include cases where the evidence
-     exceeds 100 GB. In these cases, evidence will not be held with the
-     archive, but rather accessed as needed from other backup sources.
 
 *   An archive will be retained for a two year retention period and
      disposition will occur in quarterly increments. Exceptions to this
