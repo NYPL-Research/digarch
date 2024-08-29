@@ -27,12 +27,12 @@ be available on remote storage.
 
 * Select the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
-    * \M12345_workingfiles
+  *  :file_folder: \M12345_workingfiles
         * \ACQ_12345_54321
             * \metadata
             * \objects  
                 * \data (optional)    
-        
+     
 * Note the metadata folder may contain metadata created during the transfer of the files.  
 * Note a file directory listing of the files in .csv format, if present.
 * Navigate to the objects folder to view the files to be arranged.  
@@ -47,18 +47,21 @@ OR
 
 ## Surveying and Appraising
 
-Using their workstation the archivist will be able to appraise a copy of records with   
-the same structure as contained on the original media.  
+Using their workstation the archivist will be able to survey and appraise a copy of  
+the records with the same structure as contained on the original media.  
+Surveying digital material relies on the same guidelines as other collection material.  
 "The goal of the survey is to attain a more comprehensive understanding of the  
 collection's scope, content, and purpose." [^1]
 
 [^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey](https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey).
 
+Appraising digital material relies on the same guidelines as other collection material.  
 “In archives, appraisal is the process of determining whether collection material has  
 archival value and should be retained, preserved, and described.” [^2]
 
 [^2]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal](https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal)
 
+Digital material that will be retained is [arranged](#arranging-and-describing-files-from-a-workstation).  
 
 ### Surveying
 * Survey files as you would any other format.    
