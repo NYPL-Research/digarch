@@ -68,6 +68,28 @@ Digital material that will be retained is [arranged](#arranging-and-describing-f
 * Ascertain the arrangement of the files.
 * Note file naming conventions, how the files relate to each other, and possible duplicates.  
   
+### Identifying Contents
+When surveying digital material the content of some files might not be immediately
+obvious when viewed. The following strategies can help identify files or provide a best
+guess.  
+
+#### Identifying Contents by Folder
+* Compare unidentified content to other content in the folder  
+* Check the folder's descriptive information for information on the files it contains  
+
+#### Identifying Contents by Filename
+* Use any descriptive information from the filename when file content is not apparent  
+
+#### Identifying Contents by Modified Date
+* Use the modified dates to compare the files to files from similar dates  
+* Describe files by dates if that is the most information you can obtain  
+
+#### Dealing with Unreadable Files
+* Appraise unreadable files by identifying them with the methods just discussed
+* Contact Digital Archives staff If you don’t feel you can make appraisal decisions
+  * Digital Archives staff will assist in viewing files if possible
+* Contact Digital Archives when you include unreadable files in Finding Aid Components 
+
 
 ## Arranging and Describing Files from a Workstation
 
