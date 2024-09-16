@@ -68,7 +68,6 @@ Digital material that will be retained is [arranged](#arranging-and-describing-f
 * Ascertain the arrangement of the files.
 * Note file naming conventions, how the files relate to each other, and possible duplicates.  
   
-### Identifying Contents
 When surveying digital material the content of some files might not be immediately
 obvious when viewed. The following strategies can help identify files or provide a best
 guess.  
@@ -99,16 +98,21 @@ the components, and enter them into ArchivesSpace.
 
 {: .warning }
 Do not rename collection files.  
-Avoid creating an ER for a single file. 
+
 
 ### Arrangement  
+Once you have an understanding of the contents from identifying files during survey and making appraisal decisions, you can arrange the files you have decided to retain. Arrange electronic records by moving folders and files into ER folders. Refrain from renaming collection files and folders when moving. Try to avoid item level arrangement where possible.
 
+{: .important }
+Avoid creating an ER for a single file. 
 * Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
 * Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
 * Name the folder \M12345_FAcomponents, for example.  
 * Create a folder for each heading represented in the electronic records.  ```Correspondence```
 * Create a folder for each FA Component using ```ER # Title, dates```.  
-* Create an objects folder within each ER_# folder. ```ER 1 Files, 2012\objects```
+* Create an objects folder within each ER_# folder. 
+  * :file_folder: ```ER 1 Files, 2012``` 
+    * :file_folder: ```objects```
 * Move the files into the new FA Component objects folders as your process the files.  
 
 ### Finishing up
