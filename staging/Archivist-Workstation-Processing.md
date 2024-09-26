@@ -27,11 +27,11 @@ be available on remote storage.
 
 * Select the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
-  * :📁 \M12345_workingfiles
-        * \ACQ_12345_54321
-            * \metadata
-            * \objects  
-                * \data (optional)    
+  * 📁 ```M12345_workingfiles```  
+      * 📁 ```ACQ_12345_54321```  
+          * 📁 ```metadata```  
+          * 📁 ```objects```  
+              * 📁 ```data``` (optional)    
      
 * Note the metadata folder may contain metadata created during the transfer of the files.  
 * Note a file directory listing of the files in .csv format, if present.
@@ -105,15 +105,22 @@ Once you have an understanding of the contents from identifying files during sur
 
 {: .important }
 Avoid creating an ER for a single file. 
-* Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
+* Create a new folder on the drive you received at the same folder level as ```M12345_workingfiles```.  
 * Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
-* Name the folder \M12345_FAcomponents, for example.  
-* Create a folder for each heading represented in the electronic records.  ```Correspondence```
+* Name the folder ```M12345_FAcomponents```, for example.  
+* Create a folder for each series and subseries represented in the electronic records.        
+  * 📁 ```Series 1```  
+    * 📁 ```Subseries 1```  
+    * 📁 ```Subseries 2```  
 * Create a folder for each FA Component using ```ER # Title, dates```.  
-* Create an objects folder within each ER_# folder. 
+* Create an ```objects``` folder within each ER_# folder.  
   * 📁 ```ER 1 Files, 2012``` 
     * 📁 ```objects```
-* Move the files into the new FA Component objects folders as your process the files.  
+* Move the files into the new FA Component ```objects``` folders as your process the files.  
+
+{: .important }
+```objects``` must be lower case.  
+ 
 
 ### Finishing up
 * Email [Digital Archives](mailto:digitalarchives@nypl.org) when you are finished processing.  
