@@ -25,14 +25,14 @@ be available on remote storage.
 
 ### Navigating the Drive
 
-* Double-click the drive icon to display the drive folders in Windows Explorer.
+* Select the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
-    * \M12345_workingfiles
+  *  :file_folder: \M12345_workingfiles
         * \ACQ_12345_54321
             * \metadata
             * \objects  
                 * \data (optional)    
-        
+     
 * Note the metadata folder may contain metadata created during the transfer of the files.  
 * Note a file directory listing of the files in .csv format, if present.
 * Navigate to the objects folder to view the files to be arranged.  
@@ -45,36 +45,74 @@ OR
 {: .important }
 `data` folders are not collection folders. Move the contents within `data` folders only.  
 
-## Surveying and Appraisal
+## Surveying and Appraising
 
-The goal of the survey and appraisal phase is to approximate the process in which an archivist works with a physical collection. By using their workstation the archivist will be able to appraise a copy of records with the same structure as contained on their original media. 
+Using their workstation the archivist will be able to survey and appraise a copy of  
+the records with the same structure as contained on the original media.  
+Surveying digital material relies on the same guidelines as other collection material.  
+"The goal of the survey is to attain a more comprehensive understanding of the  
+collection's scope, content, and purpose." [^1]
 
-* Appraise the files.  
+[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey](https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey).
+
+Appraising digital material relies on the same guidelines as other collection material.  
+“In archives, appraisal is the process of determining whether collection material has  
+archival value and should be retained, preserved, and described.” [^2]
+
+[^2]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal](https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal)
+
+Digital material that will be retained is [arranged](#arranging-and-describing-files-from-a-workstation).  
+
+### Surveying
+* Survey files as you would any other format.    
 * Ascertain the arrangement of the files.
-* Note file naming conventions, how the files relate to each other, and  possible duplicates.  
+* Note file naming conventions, how the files relate to each other, and possible duplicates.  
   
+When surveying digital material the content of some files might not be immediately
+obvious when viewed. The following strategies can help identify files or provide a best
+guess.  
+
+#### Identifying Contents by Folder
+* Compare unidentified content to other content in the folder  
+* Check the folder's descriptive information for information on the files it contains  
+
+#### Identifying Contents by Filename
+* Use any descriptive information from the filename when file content is not apparent  
+
+#### Identifying Contents by Modified Date
+* Use the modified dates to compare the files to files from similar dates  
+* Describe files by dates if that is the most information you can obtain  
+
+#### Dealing with Unreadable Files
+* Appraise unreadable files by identifying them with the methods just discussed
+* Contact Digital Archives staff If you don’t feel you can make appraisal decisions
+  * Digital Archives staff will assist in viewing files if possible
+* Contact Digital Archives when you include unreadable files in Finding Aid Components 
+
 
 ## Arranging and Describing Files from a Workstation
 
-The goal of the arrangement and description phase is to approximate the
-process in which an archivist works with a physical collection. By using
-their workstation the archivist will be able to appraise a copy of records with the same 
-structure as contained on their original media, create a set of intellectual components
-(arrangement), summarize the logical extents (size) and date ranges of
-the components, and enter them into ArchivesSpace.
+Using their workstation the archivist will be able to create a set of intellectual   
+components (arrangement), summarize the logical extents (size) and date ranges of  
+the components, and enter them into ArchivesSpace.  
 
 {: .warning }
 Do not rename collection files.  
-Avoid creating an ER for a single file. 
+
 
 ### Arrangement  
+Once you have an understanding of the contents from identifying files during survey and making appraisal decisions, you can arrange the files you have decided to retain. Arrange electronic records by moving folders and files into ER folders. Refrain from renaming collection files and folders when moving. Try to avoid item level arrangement where possible.
 
+{: .important }
+Avoid creating an ER for a single file. 
 * Create a new folder on the drive you received at the same folder level as \M12345_workingfiles.  
 * Use the naming convention ```CollectionID_FAcomponents``` to create a collection folder.  
 * Name the folder \M12345_FAcomponents, for example.  
 * Create a folder for each heading represented in the electronic records.  ```Correspondence```
 * Create a folder for each FA Component using ```ER # Title, dates```.  
-* Create an objects folder within each ER_# folder. ```ER 1 Files, 2012\objects```
+* Create an objects folder within each ER_# folder. 
+  * :file_folder: ```ER 1 Files, 2012``` 
+    * :file_folder: ```objects```
 * Move the files into the new FA Component objects folders as your process the files.  
 
 ### Finishing up
@@ -87,4 +125,6 @@ Avoid creating an ER for a single file.
 ### Entering your collection in ArchivesSpace
 After arrangement is complete Processing Archivists notify Digital Archives and deliver the external hard drive containing FA Components to Digital Archives for review.  Digital Archives staff then create a JSON file containing extents for import into ASpace. For detailed instruction on importing the extents JSON to ASpace review the [Importing FTK ERs in ArchiveSpace](https://docs.google.com/document/d/1BVMaDOzdcPFIht5yN5V16zmsnjMTwG_3e73HPTdVzSg/edit) guide.
 
-* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.
+* Note in some situations ERs may have to be manually created in ASpace instead of imported. Contact the Manager of Archival Metadata when deciding whether manual creation or JSON import is pertinent to your processing.  
+
+----------------------------------------------------------------------------------------
