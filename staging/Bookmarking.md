@@ -42,9 +42,9 @@ When you have finished bookmarking, bookmarks should usually contain one level o
 Here are exceptions to the guidelines above. 
 
 ### Disk Images
-Although I have said that file systems should not be bookmarked, We may ask you to bookmark file systems if we need to create disk image packages for access. We should check-in and have a conversation about arrangement before you create bookmarks to represent DI packages.
+Although I have said that folders should not be bookmarked, we may ask you to bookmark [root] folders if we need to create disk image packages for access. We should check-in and have a conversation about arrangement before you create bookmarks to represent DI packages.
 
-* Do bookmark file systems if digital archives staff say to create DI packages
+* Do bookmark [root] folders if digital archives staff say to create DI packages
 
 ### Folders
 It’s also possible that we will encounter cases where folder structure needs to be retained for access in specific software. This is also a case where we will need to have a conversation before you create bookmarks with folders. Digital Archives staff will need to know the folder structure you need. Creating the right folder structure requires manipulating options in FTK. The correct folder structure may not be possible to achieve with FTK in many cases. Ideally, when a specific folder structure is needed it will be created from a transfer outside of FTK. This is much easier. When you find you need to retain recursive folders this work should usually done at an archivist workstation.
