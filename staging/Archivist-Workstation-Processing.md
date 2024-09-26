@@ -27,7 +27,7 @@ be available on remote storage.
 
 * Select the drive icon to display the drive folders in Windows Explorer.
 * The folders will have the following structure:  
-  *  :file_folder: \M12345_workingfiles
+  * :📁 \M12345_workingfiles
         * \ACQ_12345_54321
             * \metadata
             * \objects  
@@ -111,8 +111,8 @@ Avoid creating an ER for a single file.
 * Create a folder for each heading represented in the electronic records.  ```Correspondence```
 * Create a folder for each FA Component using ```ER # Title, dates```.  
 * Create an objects folder within each ER_# folder. 
-  * :file_folder: ```ER 1 Files, 2012``` 
-    * :file_folder: ```objects```
+  * 📁 ```ER 1 Files, 2012``` 
+    * 📁 ```objects```
 * Move the files into the new FA Component objects folders as your process the files.  
 
 ### Finishing up
