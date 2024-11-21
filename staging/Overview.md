@@ -8,7 +8,7 @@ grand_parent: Processing
 ---
 # Overview
 These are the basic steps for working with Electronic records that Archival Processing and Digital Archives will work on together.
-* You are assigned a collection with Electronic records.
+* You start a collection with Electronic records.
 * Survey Electronic records and include them in the project proposal.
 * Confirm whether you will use FTK to process the collection.
 * Sign up to use a FRED workstation on the Digital Archives Lab Calendar.
@@ -19,10 +19,11 @@ These are the basic steps for working with Electronic records that Archival Proc
 
 # Communicating with Digital Archives staff
 Send email to [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) when
-* You are assigned a collection with Electronic records.
+* You start a collection with Electronic records.
     * Be clear about where you are in processing when you contact Digital Archives.
 * You have completed your processing proposal.
 * You find digital media in a collection.
+  * Use "digital carriers" in the title of the email when you contact Digital Archives.  
 * You sign up for time on the Digital Archives Lab calendar. 
     * At least 24 hours in advance
 * You are ready to begin bookmarking.

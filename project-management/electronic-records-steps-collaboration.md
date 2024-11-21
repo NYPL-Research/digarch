@@ -26,6 +26,7 @@ Draft
 
 # Arrangement
 * Contact Digital Archives if you find any digital media while processing the collection.  
+  * Use "digital carriers" in the title of the email when you contact Digital Archives.    
 * Contact Digital Archives and discuss your processing time frame. 
 * Discuss whether you will be arranging electronic records at your workstation or using FTK.  
 * Digital Archives will contact you with a weekly email check-in while you are processing.  
