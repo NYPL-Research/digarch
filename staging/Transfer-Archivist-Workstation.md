@@ -1,9 +1,9 @@
 ---
 title: Archivist Workstation Transfer Instructions
 layout: default
-nav_order: 7.5
+nav_order: 8.1
 has_children: false
-parent: Processing
+parent: Post-processing
 ---
 
 # Archivist Workstation Transfer Instructions

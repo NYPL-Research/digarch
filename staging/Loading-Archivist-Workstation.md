@@ -1,9 +1,9 @@
 ---
 title: Loading an Archivist Workstation Drive
 layout: default
-nav_order: 6.5
+nav_order: 1.2
 has_children: false
-parent: Processing
+parent: Preparing Collections
 ---
 
 # Archivist Workstation Loading Instructions

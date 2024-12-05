@@ -1,8 +1,8 @@
 ---
 title: Electronic Records Collaboration
 layout: default
-nav_order: 6
-parent: Project Management
+nav_order: .25
+parent: Processing
 ---
 This page outlines times archivists and Digital Archives staff should communicate. Archivists are encouraged to contact Digital Archives staff any time they have questions.  
 
@@ -16,8 +16,10 @@ This page outlines times archivists and Digital Archives staff should communicat
 * Discuss whether you would like to appraise/survey hard drive directories before transfer.  
 
 ### Survey Directories  
-Draft
-{: .label .label-red }
+
+{: .construction } 
+Not implemented
+
 * Report the titles of directories to retain to Digital Archives
 * Report on duplicates and PII found by Bulk Reviewer to Digital Archives
 
@@ -26,6 +28,7 @@ Draft
 
 # Arrangement
 * Contact Digital Archives if you find any digital media while processing the collection.  
+  * Use "digital carriers" in the title of the email when you contact Digital Archives. 
 * Contact Digital Archives and discuss your processing time frame. 
 * Discuss whether you will be arranging electronic records at your workstation or using FTK.  
 * Digital Archives will contact you with a weekly email check-in while you are processing.  

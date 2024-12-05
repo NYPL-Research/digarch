@@ -1,9 +1,9 @@
 ---
 title: Preparing FRED Workspace Instructions
 layout: default
-nav_order: 1.5
+nav_order: 1
 has_children: false
-parent: Processing
+parent: Preparing Collections
 ---
 
 # Preparing FRED Workspace for Processing Archivists
