@@ -20,7 +20,7 @@ Born digital collection material can be acquired through file transfer or forens
 
 The file transfer workflows are detailed in this document. The workflows may vary based on media types and file types-->
 
-This page describes instructions for acquiring born digital material via file transfer and packaging file transfers for processing. The file transfer workflow described on this page primarily applies to internal and external hard drives, thumb drives and sd cards. 
+This page describes instructions for acquiring born digital material via file transfer and packaging file transfers for processing. The file transfer workflow described on this page primarily applies to internal and external hard drives, thumb drives and sd cards.
 
 ### Before Imaging
 {: .important }
@@ -31,14 +31,16 @@ Before any media can be imaged **it first must have an object record in SPEC**.
 
 <!--**Before a media object can be transferred it first must be recorded SPEC.**-->
 
-## Prepare destination folders for files
+<!--## Prepare destination folders for files
 
 **These instructions show you how to prepare destination folders for a number of consecutive disks. Consider using a one-line command to create directories if the disks you are packaging do not have consecutive ID numbers or you are only transferring one media object.**  
 
 <!--Windows instructions should go here-->
 
 <!--May actually need to move the descriptive information on cygwin and wsl up here cause this can be done via terminal-->
-On Windows via WSL:
+<!--On Windows via WSL:
+
+Working with WSL 
 
 * Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or selecting the Ubuntu icon on the Windows task bar.
 
@@ -108,19 +110,28 @@ Or
 
 * /ACQ_1234_123456
   * /metadata
-  * /objects
+  * /objects-->
 
-## Transfer files from media object
+### Transfer files in office with transfer_rsync.py
 
-Files that have been updated by the donor within the past 30
-days should be quarantined for 30 days to ensure that
-all virus definitions are up to date.
+{: .important}
+Files that have been updated by the donor within the past 30 days should be quarantined for 30 days to ensure that all virus definitions are up to date.
+
+Files are transferred from digital carriers in office using the [transfer_rsync script](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"}. This script uses rsync, a command utility used for copying and syncing file locations, to initiate transfer files then packages the files in our digital archives package structure. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section. More information about [transfer_rsync.py](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"} can be found in the [working scripts](https://nypl.github.io/digarch/tools/working-scripts){:target="_blank"} section of our documentation.
 
 * Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
 
-* Use [rsync](../software#rsync){:target="_blank"} to create a transfer package.
+* Open terminal on Mac or WSL on Windows
 
-### Rsync
+* Run transfer_rsync.py by entering the following command with the appropriate paths: ```python3 transfer_rsync.py –-carrierid (M#### or ACQ_####_######) -–payload path/to/files/directory -–dest path/to/destination/directory```
+
+{: .note}
+You may also add the ```--quiet``` flag to suppress rsync progress bar information.
+
+### Package pre-transferred files with package_rsync.py
+In some situations, files may be transferred but still require packaging in our digital archives package structure; such as with on site transfers. Digital Archives uses [package_rsync.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_filetransferpy){:target="_blank"} to repackage already completed file transfers.
+
+<!--### Rsync
 
 Rsync is a command utility used for copying and syncing file locations, both locally and remotely. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section.
 
@@ -141,14 +152,14 @@ On Mac:
 
 * Enter ```rsync -arP sourcepath destinationpath```
 
-* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```
+* An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```-->
 
 ### Completing the imaging process
 
 * Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
 
-{: .deprecated}
+<!--{: .deprecated}
 The following sections describe processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
 
 ### FT.sh
@@ -169,4 +180,4 @@ Or
 * Copy the number of files in payload and the size of payload in kb when displayed in the window.
 * Paste the number of files and the size in the File Transfers section of the media log in CMS.
   
-<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js?" async></script>
+<script id="asciicast-mKpfPqUl74R3t30B0tvpfPBQV" src="https://asciinema.org/a/mKpfPqUl74R3t30B0tvpfPBQV.js?" async></script>-->
