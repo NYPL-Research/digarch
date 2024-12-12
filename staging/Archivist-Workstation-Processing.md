@@ -39,8 +39,10 @@ be available on remote storage.
 
 OR
 
-* Navigate to the data folder in the objects folder to view the files to be arranged.
+* Navigate to the data folder in the objects folder to view the files to be arranged.  
 <!--* Note manifest.txt files contain a directory listing. --> 
+
+Go to [Navigating the Drive](navigating-the-drive) for more examples of folder structures.  
 
 {: .important }
 `data` folders are not collection folders. Move the contents within `data` folders only.  
