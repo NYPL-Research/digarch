@@ -161,11 +161,6 @@ On Mac:
 
 * An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```-->
 
-### Completing the transfer process
-
-* Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
-* Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
-
 <!--{: .deprecated}
 The following sections describe processes no longer regularly used. Consult these sections when working with legacy collections requires understanding previously done work.
 
