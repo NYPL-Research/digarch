@@ -117,7 +117,9 @@ Or
 {: .important}
 Files that have been updated by the donor within the past 30 days should be quarantined for 30 days to ensure that all virus definitions are up to date.
 
-Files are transferred from digital carriers in office using the [transfer_rsync script](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"}. This script uses rsync, a command utility used for copying and syncing file locations, to initiate transfer files then packages the files in our digital archives package structure. More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section. More information about [transfer_rsync.py](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"} can be found in the [working scripts](https://nypl.github.io/digarch/tools/working-scripts){:target="_blank"} section of our documentation.
+Files are transferred from digital carriers in office using the [transfer_rsync script](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"}. This script uses rsync, a command utility used for copying and syncing file locations, to initiate file transfer then packages the files in our digital archives package structure. 
+
+More information about rsync can be found on the [rsync documentation page](https://linux.die.net/man/1/rsync) and [installation instructions](../software#rsync) can be found in our software section. More information about [transfer_rsync.py](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"} can be found in the [working scripts](https://nypl.github.io/digarch/tools/working-scripts){:target="_blank"} section of our documentation.
 
 * Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
 
@@ -125,11 +127,16 @@ Files are transferred from digital carriers in office using the [transfer_rsync 
 
 * Run transfer_rsync.py by entering the following command with the appropriate paths: ```python3 transfer_rsync.py –-carrierid (M#### or ACQ_####_######) -–payload path/to/files/directory -–dest path/to/destination/directory```
 
-{: .note}
-You may also add the ```--quiet``` flag to suppress rsync progress bar information.
+  * You may also add the optional ```--quiet``` flag to suppress rsync progress bar information.
 
 ### Package pre-transferred files with package_rsync.py
 In some situations, files may be transferred but still require packaging in our digital archives package structure; such as with on site transfers. Digital Archives uses [package_rsync.py](https://nypl.github.io/digarch/tools/working-scripts.html#package_filetransferpy){:target="_blank"} to repackage already completed file transfers.
+
+* Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
+
+* Open terminal on Mac or WSL on Windows
+
+* Run package_filetransfer.py by entering the following command with the appropriate paths: ```python3 package_filetransfer.py –-carrierid (M#### or ACQ_####_######) -–payload path/to/files/directory -–dest path/to/destination/directory```
 
 <!--### Rsync
 
@@ -154,7 +161,7 @@ On Mac:
 
 * An example rsync command may look like: ```rsync -arP /Volumes/path/to/media/carrier /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers/acquisition-folder/media-folder/objects```-->
 
-### Completing the imaging process
+### Completing the transfer process
 
 * Return media to the collection’s box or move media to the "Small Collections Transferred" box if you are working on a small collection without a box.  
 * Update object record migration status in SPEC. See [Updating records in SPEC](https://nypl.github.io/digarch/transfers/Completing-transfer.html#updating-records-in-spec) section on Completing a Transfer page for detailed instructions
