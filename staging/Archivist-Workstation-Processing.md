@@ -64,7 +64,7 @@ Go to [Navigating the Drive](navigating-the-drive) for more examples of folder s
 
 ## Surveying and Appraising
 
-Using their workstation the archivist will be able to survey and appraise a copy of  
+Using your workstation you will be able to survey and appraise a copy of  
 the records with the same structure as contained on the original media.  
 Surveying digital material relies on the same guidelines as other collection material.  
 "The goal of the survey is to attain a more comprehensive understanding of the  
