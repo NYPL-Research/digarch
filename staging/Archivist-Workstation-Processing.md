@@ -7,11 +7,26 @@ parent: Processing
 ---
 
 # Archivist Workstation Processing Instructions
+
+<iframe src="https://docs.google.com/presentation/d/1vn8s-UogFv4HMn4iifnEtRKGt8WYHwRI4Za1R2YVQI4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 {: .no_toc }
 &nbsp;
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
+
+## Processing Electronic Records with Your Workstation Video Training
+
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/ytF8UsE3rJA"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged. In some cases files might
 be available on remote storage.   
@@ -119,6 +134,8 @@ Avoid creating an ER for a single file.
   * 📁 ```ER 1 Files, 2012``` 
     * 📁 ```objects```
 * Move the files into the new FA Component ```objects``` folders as your process the files.  
+
+Go to [Arranging and Describing Files](arranging-and-describing-files) for more examples of folder structures.
 
 {: .important }
 ```objects``` must be lower case.  
