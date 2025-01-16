@@ -1,5 +1,5 @@
 ---
-title: Electronic Records Collaboration
+title: Working With Digital Archives
 layout: default
 nav_order: .25
 parent: Processing
