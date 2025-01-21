@@ -3,7 +3,7 @@ title: FTK Export
 layout: default
 nav_order: 4
 has_children: false
-parent: Processing
+parent: Post-processing
 ---
 
 # Exporting Finding Aid Components From FTK

@@ -1,17 +1,32 @@
 ---
 title: Archivist Workstation Processing Instructions
 layout: default
-nav_order: 7
-has_children: false
+nav_order: 3
+has_children: true
 parent: Processing
 ---
 
 # Archivist Workstation Processing Instructions
+
+<iframe src="https://docs.google.com/presentation/d/1vn8s-UogFv4HMn4iifnEtRKGt8WYHwRI4Za1R2YVQI4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 {: .no_toc }
 &nbsp;
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
+
+## Processing Electronic Records with Your Workstation Video Training
+
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/ytF8UsE3rJA"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="true">
+  </iframe>
+</div>
 
 Archivists processing electronic records without using FTK or ePADD will receive an external hard drive or thumb drive with copies of files to be arranged. In some cases files might
 be available on remote storage.   
@@ -39,15 +54,17 @@ be available on remote storage.
 
 OR
 
-* Navigate to the data folder in the objects folder to view the files to be arranged.
+* Navigate to the data folder in the objects folder to view the files to be arranged.  
 <!--* Note manifest.txt files contain a directory listing. --> 
+
+Go to [Navigating the Drive](navigating-the-drive) for more examples of folder structures.  
 
 {: .important }
 `data` folders are not collection folders. Move the contents within `data` folders only.  
 
 ## Surveying and Appraising
 
-Using their workstation the archivist will be able to survey and appraise a copy of  
+Using your workstation you will be able to survey and appraise a copy of  
 the records with the same structure as contained on the original media.  
 Surveying digital material relies on the same guidelines as other collection material.  
 "The goal of the survey is to attain a more comprehensive understanding of the  
@@ -117,6 +134,8 @@ Avoid creating an ER for a single file.
   * 📁 ```ER 1 Files, 2012``` 
     * 📁 ```objects```
 * Move the files into the new FA Component ```objects``` folders as your process the files.  
+
+Go to [Arranging and Describing Files](arranging-and-describing-files) for more examples of folder structures.
 
 {: .important }
 ```objects``` must be lower case.  

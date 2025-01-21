@@ -1,9 +1,9 @@
 ---
 title: FTK Evidence
 layout: default
-nav_order: 1
+nav_order: 1.1
 has_children: false
-parent: Processing
+parent: Preparing Collections
 ---
 
 
