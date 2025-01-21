@@ -121,6 +121,6 @@ Many media types have shutters, gates, or spools that need to move freely to wor
 
 ## Shelve the media.
 
-* Place completed boxes on shelf 02 in 205. The shelf is closest to 205A.  
+* Place completed boxes on the black cart 02 in 205. The cart is close to 205A.  
 * Email [digitalarchives@nypl.org](mailto:digitalarchives@nypl.org) and confirm boxes are shelved.  
 
