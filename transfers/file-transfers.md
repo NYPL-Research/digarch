@@ -22,7 +22,7 @@ The file transfer workflows are detailed in this document. The workflows may var
 
 This page describes instructions for acquiring born digital material via file transfer and packaging file transfers for processing. The file transfer workflow described on this page primarily applies to internal and external hard drives, thumb drives and sd cards.
 
-### Before Imaging
+### Before Transfer
 {: .important }
 Before any media can be transferred **it first must have an object record in SPEC**.
 * Verify a tracking card exists on Trello for the associated acquisition being imaged  
