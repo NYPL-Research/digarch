@@ -25,7 +25,7 @@ This page describes instructions for acquiring born digital material via file tr
 ### Before Transfer
 {: .important }
 Before any media can be transferred **it first must have an object record in SPEC**.
-* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+* Verify a tracking card exists on Trello for the associated acquisition being transferred 
     * Create a card if it does not already exist 
 * See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
