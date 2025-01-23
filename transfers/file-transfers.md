@@ -10,10 +10,10 @@ parent: Transfers
 
 This page describes instructions for acquiring born digital material via file transfer and packaging file transfers for processing. The file transfer workflow described on this page primarily applies to internal and external hard drives, thumb drives and sd cards.
 
-### Before Imaging
+### Before Transfer
 {: .important }
-Before any media can be imaged **it first must have an object record in SPEC**.
-* Verify a tracking card exists on Trello for the associated acquisition being imaged  
+Before any media can be transferred **it first must have an object record in SPEC**.
+* Verify a tracking card exists on Trello for the associated acquisition being transferred 
     * Create a card if it does not already exist 
 * See our [Preparing for Transfer](https://nypl.github.io/digarch/transfers/preparing-for-transfer.html) page for detailed pre-imaging and transfer instructions.
 
