@@ -171,4 +171,38 @@ standard methods fail.
 
 ## Verifying Storage Space
 Before beginning transfer make sure Digital Archives Diskstation (DADS) has enough  
-space to store the transfers.  
+space to store the transfers.
+
+## Working with WSL on Windows
+Most work Digital Archives work is done on mac os machines. When working on Windows workstations WSL (Windows Subsystem for Linux) is used instead of Terminal. Storage locations may need to be mounted. To mount or re-mount a storage location:
+
+* Start WSL (Windows Subsystem for Linux) by searching for Ubuntu or selecting the Ubuntu icon on the Windows task bar.
+
+Note: If you search for WSL you may come across the WSL app with a penguin icon, this is an older version of WSL and NOT the version currently used by Digital Archives
+
+* On opening the WSL terminal navigate to the mount point directory by entering ```cd /mnt```
+
+* Any mounted drives, such as those you are transferring between, should be accessible from the mount point directory. Drives you'll see in /mnt include:
+  * d - Sata Drive Bay
+  * f - Storage for FTK
+  * h - Open FTK cases
+  * i - Codemeter access key
+  * y - DigArchDiskStation
+
+* If you do not see the Y:\ drive in /mnt or /mnt/y appears to be empty then it must be re-mounted by:
+  * Changing to the top level directory by entering ```cd /```
+  * Entering the command ```sudo mount -t drvfs Y: /mnt/y```
+
+* Note: For a visual example of mounting a drive in WSL reference the following recording:
+<script async id="asciicast-bqEfvxCtzxiPXjfr2S8zEimov" src="https://asciinema.org/a/bqEfvxCtzxiPXjfr2S8zEimov.js" data-speed="3.5" data-theme="dracula"></script>
+
+## Creating Destination Directory Batches
+While most transfer and imaging workflows use scripts that will create destination packages, there may be times when manually creating destination packages is needed. To manually create batches of destination directory packages:
+
+* Open Terminal on Mac OS or WSL on Winodws
+
+* Navigate to the destination for file transfers or disk images. 
+    * Using fileTransfers as an example enter ```$ cd /Volumes/DigArchDiskStation/Staging/ingest/fileTransfers```
+
+* Enter ```mkdir``` command.  
+    * ```mkdir -p ACQ_acqID/ACQ_acqID_{start..end}/{metadata,objects}```
