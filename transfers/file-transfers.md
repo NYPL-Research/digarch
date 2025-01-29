@@ -22,7 +22,7 @@ Before any media can be transferred **it first must have an object record in SPE
 {: .important}
 Files that have been updated by the donor within the past 30 days should be quarantined for 30 days to ensure that all virus definitions are up to date.
 
-Files are transferred from digital carriers in office using the [transfer_rsync script](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"}. This script uses [rsync](../software#rsync){:target="_blank"}, a command utility used for copying and syncing file locations, to initiate file transfer then packages the files in our digital archives package structure.
+Files are transferred from digital carriers in office using the [transfer_rsync script](https://nypl.github.io/digarch/tools/working-scripts.html#transfer_rsyncpy){:target="_blank"}. This script uses [rsync](https://nypl.github.io/digarch/tools/programs.html#rclone){:target="_blank"}, a command utility used for copying and syncing file locations, to initiate file transfer then packages the files in our digital archives package structure.
 
 * Use a write-blocker to connect the drive to the computer. See [Using Tableau Write Blockers](/digarch/transfers/using-tableaus.html){:target="_blank"} for instructions.
 
