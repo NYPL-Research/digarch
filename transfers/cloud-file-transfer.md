@@ -15,7 +15,7 @@ parent: Transfers
 {:toc}
 
 # Introduction
-Born-digital collection material can be acquired through file transfer from cloud based storage locations. This page describes Digital Archives workflow for preparing for a cloud based file transfer, creating a destination package using ft_packager.py and transferring material using rclone. The instructions detailed on this page are specific to transfers from google drive, but are adaptable to other cloud storage contexts.  
+Born-digital collection material can be acquired through file transfer from cloud based storage locations. This page describes Digital Archives workflow for preparing for a cloud based file transfer, creating a destination package using package_cloud.py and transferring material using rclone. The instructions detailed on this page are specific to transfers from google drive, but are adaptable to other cloud storage contexts.  
 
 # Before File Transfer
 Before beginning a file transfer confirmation with Donors and Collections Management about what material is being acquired is essential. Transfer from cloud storage will often require the sharing of permissions or access to the storage location for the duration of the transfer, this should be communicated with the Donor. Digital Archives does not acquire or retain system files, hidden files, deleted files or files containing personally identifiable information. See our [Acquiring Born Digital Material](/sitevisits/acquiring-born-digital.html) page for more information.
