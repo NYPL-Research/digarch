@@ -30,13 +30,15 @@ Digital carrier separation procedures are detailed in this document as performed
 When digital carriers are encountered during accessioning of an acquisition, Collection Management performs the digital media separation.
 If there are 500 or more digital carriers in an acquisition, other staff may need to assist.
 
-When digital media is encountered during processing of archival collections, the processing archivists perform the digital media separation.
+When digital media is encountered during processing of archival collections, the processing archivists removes digital carriers from folders and contacts Collection Management. Collection Management will perform further digital carries separation steps.  
 
 |When commercial software is present, staff should send it as is to Digital Preservation without inventorying or labeling.|
 
 ## Remove digital carriers from folders.  
 * House digital carriers in boxes separate from other material.  
 
+{: .important }
+Processing Archivists stop and contact Collection Management after removing digital carriers.  
 ## Create a SPEC object record for each carrier.  
 * Create an object record in SPEC for each carrier according to Collection Management practices.  
   * Input Object type (Item)  
