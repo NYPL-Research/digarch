@@ -15,22 +15,35 @@ When Processing Archivists have completed processing a collection at the their w
 
 ## Review Finding Aid Components
 
+* Attach the hard drive containing finding aid components
+* Check that the FAC directory uses the naming convention ```CollectionID_FAcomponents```
+  * ```M18867_FAcomponents```, for example
 * Review the finding aid components returned by Processing Archivist(s) for system files or other formats not retained by Digital Archives.
 
 ## Run report_hdd_extents.py
 
-* Prepare a destination directory
-  * Navigate to the FTKsettings directory in the Storage (F:) drive on FRED 2.
-  * Open the /ASpace directory
-  * Create a destination directory for the extents report using the naming convention 'CollectionIDreport'.
-    * As an example the extents report destination directory for the Morris Dickstein Collection would be named M18867report
+{: .note }
+These instruction assume you are using FRED 2.  
+On computers with Google Drive you can store JSON files using the shared drive location  
+```Digital Preservation/Stream - Digital Archives/Digital Archives Program/ASpace JSON```  
 
-* Extract extents using report_hdd_extents.py
+### Prepare a destination directory
+  * Navigate to the FTKsettings directory in the Storage (F:) drive on FRED 2.
+  * Open the ```ASpace``` directory
+  * Create a report destination directory using the naming convention ```CollectionIDreport```.  
+    * For example, the Morris Dickstein Collection directory would be ```M18867report```
+
+### Extract extents using report_hdd_extents.py
   * Open WSL on FRED 2
-  * Navigate to the destination directory previously created.
-  * Run [report_hdd_extents.py](https://nypl.github.io/digarch/tools/software.html#report-hdd-extents-script) script using the following the following syntax:
-```python3 path/to/report_ftk_extents.py -d /path/to/collection/er/directory```
+  * Note the location of the FAcompnents directory.  
+    * This location will be used after the -d flag in the command.  
+  * Note the location of the destination directory previously created.  
+    * This location will be used after the -o flag in the command.  
+  * Run [report_hdd_extents.py](https://nypl.github.io/digarch/tools/software.html#report-hdd-extents-script) script using the following command:  
+```python3 path/to/report_hdd_extents.py -d /path/to/CollectionID_FAcomponents -o /path/to/CollectionIDreport```
+  * For example:  
+```python3 digarch_scripts/report/report_hdd_extents.py -d /Volumes/DigArch11/M18867_FAcomponents -o /M18867report```  
 
 ## Deliver extents JSON to Archival Processing Unit
 
-Digital archives staff should deliver the extents JSON file to the Processing Archvist(s) for the associated collection. The Manager of Archival Metadata should be included in any correspondence for assistance with and troubleshooting for JSON import into ArchivesSpace.
+Digital archives staff should deliver the extents JSON file to the Processing Archvist(s) for the associated collection. 
