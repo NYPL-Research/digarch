@@ -70,13 +70,13 @@ Surveying digital material relies on the same guidelines as other collection mat
 "The goal of the survey is to attain a more comprehensive understanding of the  
 collection's scope, content, and purpose." [^1]
 
-[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey](https://nypl.github.io/pres-docs/archivalProcessing/Survey.html#survey).
+[^1]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/archival-processing/processing-manual/survey/](https://nypl.github.io/archival-processing/processing-manual/survey/).
 
 Appraising digital material relies on the same guidelines as other collection material.  
 “In archives, appraisal is the process of determining whether collection material has  
 archival value and should be retained, preserved, and described.” [^2]
 
-[^2]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal](https://nypl.github.io/pres-docs/archivalProcessing/Appraisal.html#appraisal)
+[^2]: New York Public Library. 2024. “Archival Processing Manual.” New York Public Library. [https://nypl.github.io/archival-processing/processing-manual/appraisal/l](https://nypl.github.io/archival-processing/processing-manual/appraisal/l)
 
 Digital material that will be retained is [arranged](#arranging-and-describing-files-from-a-workstation).  
 
