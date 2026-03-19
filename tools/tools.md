@@ -9,11 +9,14 @@ has_children: true
 {:toc}
 
 # [Workstations](workstations)
-Forensic Recovery of Evidence Devices (FRED) are used for transfer and stabilization of born-digital material at Library Services Center. Laptops are used for appraisal and transfer on site visits. A Mac is used for networking.
+Forensic Recovery of Evidence Devices (FRED) are used for transfer and stabilization of born-digital material at Library Services Center. Laptops are used for appraisal and transfer on site visits. Macs are used for networking.
 * [Macbook Pro OS Mojave](macbooktools)
-* [Lenovo Thinkpad Windows 10 Pro](thinkpad\(Windows10\)tools)
+* [Lenovo Thinkpad Windows 10 Pro](thinkpad(Windows10)tools)
 * [FRED 1](fred1)
 * [FRED 2](fred2)
+* [Mac Pro](macpro.html)
+* [Mac Studio](mac-studio.html)
+* [Linux Desktop](linux-desktop.html)
 
 # [Transfer Equipment](transfer-equipment)
 ## Drives

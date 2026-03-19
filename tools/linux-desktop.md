@@ -16,19 +16,30 @@ grand_parent: Tools
 1. TOC
 {:toc}
 
+{: .important }
+Linux Desktop is stored on a shelf and must be moved to a workstation bay for use.  
+
 ## Linux Desktop
+Windows® XP Professional HP  
+©2005 Microsoft Corporation  
+HP Compaq dc7800 Small Form Factor PC  
+Device Name digarch-HP-dinosaur  
+Hardware Model Hewlett-Packard HP Compag dc7800 Small Form Factor  
+Меmогу 2.0 GiB  
+Processor Intel® Core™*2 Duo CPU E6550 @ 2.33GHZ *2  
+Graphics Intel@ Q35  
+Disk Capacity 80.0 GB  
+OS Name Ubuntu 22.04.3 LTS  
+OS Type 64-bit  
+GNOME Version 42.9  
+Windowing System Wayland  
 
 
 
-| Tool                     | Path                   |
-| ------------------------ | ---------------------- |
-| Transfer                 |                        |
-| sf (Siegfried)           | /usr/local/bin          |
-| bagit                    | /usr/local/bin          |
-| gtar                     | /usr/local/bin          |
-| [ft.sh](http://ft.sh/)   | /usr/local/bin          |
-| sha1deep                 | not installed          |
-| [kmv.sh](http://kmv.sh/) | /users/digitalarchives |
-| [mmv.sh](http://mmv.sh/) | /users/digitalarchives |
-| BitCurator               | /VB/BitCurator-2.0.16  |
-| experiments              | /Dropbox/trials        |
+
+
+
+
+
+
+

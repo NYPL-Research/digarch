@@ -17,18 +17,11 @@ grand_parent: Tools
 {:toc}
 
 ## Mac Studio
+Mac Studio 2022  
+Chip Apple M1 Ultra  
+Memory 64 GB  
+macOS Sequoia 15.7.4  
 
+## Software
 
-
-| Tool                     | Path                   |
-| ------------------------ | ---------------------- |
-| Transfer                 |                        |
-| sf (Siegfried)           | /usr/local/bin          |
-| bagit                    | /usr/local/bin          |
-| gtar                     | /usr/local/bin          |
-| [ft.sh](http://ft.sh/)   | /usr/local/bin          |
-| sha1deep                 | not installed          |
-| [kmv.sh](http://kmv.sh/) | /users/digitalarchives |
-| [mmv.sh](http://mmv.sh/) | /users/digitalarchives |
-| BitCurator               | /VB/BitCurator-2.0.16  |
-| experiments              | /Dropbox/trials        |
+[Software](software.html)
