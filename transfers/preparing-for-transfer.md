@@ -93,12 +93,11 @@ Contact Collection Management if the number of carriers and records don't match
 
 ### Verifying additional carriers from Archival Processing
 When archivists survey a collection they may find additional carriers in boxes.  
-Archivists should create object records for any carriers they find and notify  
-Digital Archives of their discovery.  
+Archivists should notify Collection Management and Digital Archives of their discovery.  
 * [Verify](#verifying-object-records-exist-in-spec) objects records exist in SPEC  
 
 {: .highlight }
-Contact the processing archivist if the number of carriers and records don't match  
+Contact Collection Management if the number of carriers and records don't match.  
 
 ### Handling Commercial Software  
 
