@@ -1,8 +1,8 @@
 ---
 title: Mass Optical Disc Transfers with Nimbie
 layout: default
-nav_order: 3
-parent: Transfers
+nav_order: 1
+parent: Optical Media
 ---
 
 # Mass Optical Disc File Transfers with the Nimbie Auto-Loader
