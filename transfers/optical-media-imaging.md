@@ -1,8 +1,8 @@
 ---
 title: Optical Media Imaging
 layout: default
-nav_order: 7
-parent: Transfers
+nav_order: 3
+parent: Optical Media
 ---
 
 ## Optical Media - CD-R/DVD-R
